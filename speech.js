@@ -9,7 +9,7 @@ speechSet.lang = 'ja-JP';
 // ボタンクリックイベント
 start.addEventListener('click', function(){
   // 喋るスピードをランダムに
-  speechSet.rate = Number((Math.random() * 10).toFixed(2));
+  speechSet.rate = Number((Math.random() * 6).toFixed(2));
   // 再生
   speechSynthesis.speak(speechSet);
 }, false);
